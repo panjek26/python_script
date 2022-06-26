@@ -8,7 +8,7 @@ import os
 
 db = DBHelper()
 
-TOKEN = os.environ['TOKEN']
+TOKEN = os.environ['TOKEN_TELEGRAM']
 URL = "https://api.telegram.org/bot{}/".format(TOKEN)
 
 
